@@ -1,11 +1,14 @@
 package br.com.designpattern.factory;
 
+import java.util.Scanner;
+
 public class Main {
     private static Transport transport;
 
     public static void main(String[] args) {
-
-        configure(args[0]);
+        Scanner sc = new Scanner(System.in);
+        String type = sc.nextLine();
+        configure(type);
         if(transport != null){
             runTransport();
         }
