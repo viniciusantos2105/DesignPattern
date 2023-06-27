@@ -14,7 +14,7 @@ public class Main {
         startLive(new Facebook());
         */
     }
-         
+
 
     public static void startLive(IPlatform platform){
         /*System.out.println("Aguarde...");
